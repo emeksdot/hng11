@@ -1,0 +1,40 @@
+h1,
+h3 {
+    font-family: "Playwrite FR Trad",
+        cursive;
+
+}
+
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 1rem auto;
+    border: 2px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+}
+
+
+
+header img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+ul {
+    font-family: "Ubuntu",
+        sans-serif;
+}
+
+footer {
+    font-family: "Playwrite FR Trad",
+        cursive;
+}
