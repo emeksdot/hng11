@@ -9,8 +9,8 @@ h6 {
 
 }
 
-[data-testid="slackDisplayName"] {
-    margin-top: -1rem;
+h1[data-testid="slackDisplayName"] {
+    margin-top: 1rem;
 }
 
 h2[data-testid="currentTimeUTC"] {
@@ -47,16 +47,22 @@ span[data-testid="currentTimeUTC"] {
 
 
 
-header img {
+img[data-testid="slackProfilePicture"] {
     width: 289px;
     height: auto;
     margin-bottom: 2rem;
+    border: 5px solid #bbb;
+    padding: .25rem;
+    border-radius: 50%;
+    /* background-color: rgba(180, 129, 124, 0.832); */
+    background-color: aqua;
 }
 
 nav a {
     display: block;
     text-decoration: none;
     margin-top: 1rem;
+    margin-bottom: -1.5rem;
     font-family: "Playwrite FR Trad",
         cursive;
 }
@@ -73,8 +79,15 @@ ul {
         sans-serif;
 }
 
+p[data-testid="slackEmail"] {
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+    font-weight: 600;
+}
+
 footer {
     font-family: "Playwrite FR Trad",
         cursive;
-    padding: 1rem auto;
+    font-weight: 600;
+    padding: 1.5rem auto;
 }
