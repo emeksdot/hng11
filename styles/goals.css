@@ -15,6 +15,7 @@ footer {
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
+    background-color: rgba(243, 157, 157, 0.2);
 }
 
 span {
