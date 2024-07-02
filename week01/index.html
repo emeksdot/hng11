@@ -16,10 +16,18 @@
 
 <body>
     <header>
-        <h1 data-testid="name">Emeka Thomas <span data-testid="heading-break">Onwugbonu</span></h1>
-        <img data-testid="profile-image" src="../images/emeka-profile-picture.png" alt="Profile picture">
+        <nav><a data-testid="hngLink" href="https://hng.tech/learn">hng.tech/learn</a><a data-testid="keywordLink"
+                href="https://keyword.dog/">keyword.dog</a><a data-testid="scrapeanywebLink"
+                href="https://scrapeanyweb.site/">scrapeanyweb.site</a></nav>
+        <h1 data-testid="slackDisplayName">Emeka Thomas</span></h1>
+        <img data-testid="slackProfilePicture" src="../images/emeka-profile-picture.png" alt="Profile picture"
+            width="289" height="289">
+        <h2 id="utcTime" data-testid="currentTimeUTC"></h2>
+        <h2 id="day" data-testid="currentDay"></h2>
     </header>
     <main>
+
+        <p data-testid="slackEmail"></p>
         <h3 data-testid="goals">My next 2 years Goals in Technology</h3>
         <ul data-testid="goals-list">
             <li>Start with HTMl</li>
@@ -33,6 +41,7 @@
         </ul>
     </main>
     <footer> &copy;2024 Emeka Thomas Onwugbonu HNG 11</footer>
+    <script src="../scripts/goals.js"></script>
 </body>
 
 </html>

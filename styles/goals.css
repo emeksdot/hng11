@@ -1,8 +1,29 @@
 h1,
-h3 {
+h3,
+h4,
+h5,
+h6 {
     font-family: "Playwrite FR Trad",
         cursive;
+    color: purple;
 
+}
+
+[data-testid="slackDisplayName"] {
+    margin-top: -1rem;
+}
+
+h2[data-testid="currentTimeUTC"] {
+    font-family: "Playwrite FR Trad",
+        cursive;
+}
+
+h2[data-testid="currentDay"] {
+    font-family: "Ubuntu",
+        sans-serif;
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: purple;
 }
 
 header,
@@ -18,16 +39,33 @@ footer {
     background-color: rgba(243, 157, 157, 0.2);
 }
 
-span {
+span[data-testid="currentTimeUTC"] {
     display: block;
+    font-family: "Playwrite FR Trad",
+        cursive;
 }
 
 
 
 header img {
-    width: 25%;
+    width: 289px;
     height: auto;
     margin-bottom: 2rem;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-family: "Playwrite FR Trad",
+        cursive;
+}
+
+nav a:hover {
+    color: purple;
+    background-color: #fff;
+    padding: .25rem .5rem;
+    border-bottom: 2px solid purple;
 }
 
 ul {
