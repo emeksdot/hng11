@@ -48,14 +48,8 @@ span[data-testid="currentTimeUTC"] {
 
 
 img[data-testid="slackProfilePicture"] {
-    width: 289px;
-    height: auto;
     margin-bottom: 2rem;
-    border: 5px solid #bbb;
     padding: .25rem;
-    border-radius: 50%;
-    /* background-color: rgba(180, 129, 124, 0.832); */
-    background-color: aqua;
 }
 
 nav a {
@@ -90,4 +84,24 @@ footer {
         cursive;
     font-weight: 600;
     padding: 1.5rem auto;
+}
+
+
+
+/* Desktop View */
+
+@media screen and (min-width: 780px) {
+    span {
+        display: inline;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        margin: 1rem 2rem;
+        font-size: 1.25rem;
+    }
 }
